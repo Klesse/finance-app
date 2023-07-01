@@ -34,17 +34,23 @@ def main() -> None:
                 cur.execute(f"INSERT INTO Compras(name, price, date) \
                             VALUES(?, ?, ?);",[name, price, date])
             case 2:
-                option_2:int = int(input('2.1-Per Item Name\n2.2-Per Month'))
+                option_2:int = int(input('2.1-Per Item Name\n2.2-Per Month\n2.3-Show Everything\n'))
                 match option_2:
                     case 1:
                         name_search: str = input()
-                        cur.execute(f"SELECT * FROM Compras WHERE name=?;",[name_search])
+                        cur.execute("SELECT * FROM Compras WHERE name=?;",[name_search])
                         print(cur.fetchall()[0])
                     case 2:
                         date_search: str = input()
                         _, mt, yr = date_search.split('/')
-                        cur.execute(f"SELECT * FROM Compras WHERE SUBSTR()")
+                        print(mt)
+                        cur.execute("SELECT * FROM Compras WHERE strftime('%m', date) = ? AND strftime('%Y', date) = ?", [mt, yr])
                         print(cur.fetchall())
+                    case 3:
+                        cur.execute("SELECT * FROM Compras")
+                        results = cur.fetchall()
+                        for result in results:
+                            print(result)
             case 3:
                 running=False
             case _:
