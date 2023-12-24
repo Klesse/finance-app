@@ -6,7 +6,7 @@ Behind the usability, it has the purpose to practice the interaction of a python
 - Table Compras
 _______________________
 | name | price | date |
------------------------
+_______________________
 
 # Features (until now)
 1. Insert new item
