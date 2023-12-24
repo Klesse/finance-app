@@ -5,8 +5,11 @@ Behind the usability, it has the purpose to practice the interaction of a python
 # Database structure
 
 - Table Compras
+- 
 -+-+-+-+-+-+-+-+-+-+-+-
+  
 | name | price | date |
+
 -+-+-+-+-+-+-+-+-+-+-+-
 
 # Features (until now)
