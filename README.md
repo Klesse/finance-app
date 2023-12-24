@@ -15,9 +15,9 @@ Behind the usability, it has the purpose to practice the interaction of a python
 # Features (until now)
 1. Insert new item
 2. Consult
-   2.1 Per item
-   2.2 Per Month
-   2.3 Show everything in the database
+   1. Per item
+   2. Per Month
+   3. Show everything in the database
 3. Exit
 
 # TODOs
