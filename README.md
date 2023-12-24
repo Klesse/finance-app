@@ -27,7 +27,7 @@ Behind the usability, it has the purpose to practice the interaction of a python
 * Visualization with charts (such as bar, pie or line charts).
 
 # How to run
-1. open terminal in the finance.py directory.
+1. Open terminal in the finance.py directory.
 2. With python installed, execute this command: **python finance.py**.
 
 # Author
