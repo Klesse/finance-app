@@ -28,7 +28,7 @@ Behind the usability, it has the purpose to practice the interaction of a python
 
 # How to run
 1. Open terminal in the finance.py directory.
-2. With python installed, execute this command: **python finance.py**.
+2. With python installed, execute this command: `python finance.py`.
 
 # Author
 [Pedro Malandrin Klesse](www.github.com/Klesse)
